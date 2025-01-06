@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Mock Dataset 1: GTF Annotation Data
+
 gtf_data = {
     "Chromosome": ["chr1", "chr1", "chr2", "chr2", "chr3"],
     "Source": ["ensembl"] * 5,
