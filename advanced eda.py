@@ -73,17 +73,17 @@ if not annotation_data.empty:
 else:
     print("Start and End position data not available.")
 
-# 4. Base Count Visualization (Pie Chart)
-# if dna_base_counts:
-#     plt.figure(figsize=(8, 8))
-#     plt.pie(
-#         dna_base_counts.values(), 
-#         labels=dna_base_counts.keys(), 
-#         autopct='%1.1f%%', 
-#         colors=sns.color_palette('pastel')
-#     )
-#     plt.title('Base Composition in DNA Sequence')
-#     plt.show()
-# else:
-#     print("No base counts available for visualization.")
+4. Base Count Visualization (Pie Chart)
+if dna_base_counts:
+    plt.figure(figsize=(8, 8))
+    plt.pie(
+        dna_base_counts.values(), 
+        labels=dna_base_counts.keys(), 
+        autopct='%1.1f%%', 
+        colors=sns.color_palette('pastel')
+    )
+    plt.title('Base Composition in DNA Sequence')
+    plt.show()
+else:
+    print("No base counts available for visualization.")
 
